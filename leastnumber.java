@@ -9,6 +9,8 @@ public class leastnumber
     Scanner sc=new Scanner(System.in);
     String s=sc.nextLine();
     int n=sc.nextInt();
+    if(s>0)
+    {
     char ch[]=s.toCharArray();
     char ch1[]=new char[s.length()];
     Arrays.sort(ch);
@@ -19,5 +21,8 @@ public class leastnumber
     }
     String ans=String.valueOf(ch1);
     System.out.println(ans);
+    }
+    else
+      System.out.println("Invalid range");
   }
 }
