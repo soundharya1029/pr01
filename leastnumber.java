@@ -10,6 +10,7 @@ public class leastnumber
     int n=sc.nextInt();
     String s=sc.nextLine();
     char ch[]=s.toCharArray();
+    char ch1[]=new char[s.length()];
     Arrays.sort(ch);
     for(int i=0;i<ch.length-n;i++)
     {
