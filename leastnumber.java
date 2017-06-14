@@ -7,8 +7,9 @@ public class leastnumber
   {
     int c=0;
     Scanner sc=new Scanner(System.in);
-    String s=sc.nextLine();
+    String s1=sc.nextLine();
     int n=sc.nextInt();
+    int s=Integer.parseInt(s1);
     if(s>0)
     {
     char ch[]=s.toCharArray();
