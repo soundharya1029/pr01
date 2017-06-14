@@ -18,7 +18,7 @@ for(j=i+1;j<s.length();j++)
 if(ch[i]!=ch[j])
 {
  for(int k=0;k<j;k++)
- {if(ch1[k]=!ch[j])
+ {if(ch1[k]!=ch[j])
  {
  ch1[n]=ch[i];
  ch1[j]=ch[j];
