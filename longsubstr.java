@@ -20,8 +20,9 @@ if(ch[i]!=ch[j])
 ch1[n]=ch[i];
 ch1[j]=ch[j];
 }
-else if(ch1.length>sa.length())
+else if(ch1.length>sal)
 sa=String.valueOf(ch1);
+ int sal=sa.length();
 }
 }
 System.out.println(sa);	
