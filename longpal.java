@@ -4,7 +4,7 @@ public class longpal
 {
     public static void main(String args[])
     {
-        int i,j,c=0,k;
+        int i,j,c=0,k,flag=0;
         String pal="";
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
@@ -25,6 +25,7 @@ public class longpal
                     { 
                       ans[c]=str;
                       c++;
+                        flag=1;
                     }
                 }
                 } 
@@ -41,5 +42,7 @@ public class longpal
            }
        }
        System.out.println(pal);
+        if(flag=0)
+            System.out.println("Invalid");
     }
 }
