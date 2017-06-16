@@ -42,7 +42,7 @@ public class longpal
            }
        }
        System.out.println(pal);
-        if(flag=0)
+        if(flag==0)
             System.out.println("Invalid");
     }
 }
