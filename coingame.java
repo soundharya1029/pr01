@@ -6,7 +6,7 @@ public class coingame {
 	{
 		int sum1=0,sum2=0;
 	Scanner sc=new Scanner(System.in);
-	System.out.println("enter the no of coins");
+	System.out.println("enter the size of the line");
 	int n=sc.nextInt();
 	int ch[]=new int[n];
 	System.out.println("enter coins");
