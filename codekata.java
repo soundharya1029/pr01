@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class proqns61
+public class codekata
 {
     public static void main(String args[])
     {
