@@ -53,7 +53,7 @@ public class id
 		k2=sum2;
 		b=sum2;
 		}
-		if(sum1<sum2)
+		if(sum1<=sum2)
 			ans=sum1*sum1;
 		else if(sum2<sum1)
 			ans=sum2*sum2;
